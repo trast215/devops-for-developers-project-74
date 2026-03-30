@@ -1,8 +1,7 @@
 
 services:
   app:
-    build: .
-    volumes:
-      - ./app:/app
-      
-    command: ["make", "test"]
+    image: trast215/devops-for-developers-project-74
+    build:
+      context: .
+      dockerfile: Dockerfile.production
