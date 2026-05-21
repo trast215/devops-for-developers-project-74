@@ -7,3 +7,6 @@ tmp/
 temp/
 .env
 *.sqlite
+app/node_modules
+app/database.sqlite
+app/database.test.sqlite
